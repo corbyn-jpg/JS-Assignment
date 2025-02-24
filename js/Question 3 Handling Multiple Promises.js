@@ -1,4 +1,4 @@
-/* c)
+/* a)
 Promise.all() is used to handle multiple promises concurrently and wait for all of them to resolve.
 The Promise.allSettled() is used to handle multiple promises but it waits for all the promises to settle before continuing. It returns an array based on the results.
 Promise.race() is used to handle multiple promises, but it resolves or rejects as soon as the first promise in the input array settles, either by resolving or rejecting.

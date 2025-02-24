@@ -1,4 +1,4 @@
-/* b)
+/* a)
 The main differences between callbacks and promises is:
 Syntax: Callbacks are function-based, whereas promises have methods like .then() and .catch()
 
