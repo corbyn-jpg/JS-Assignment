@@ -11,6 +11,11 @@ function fetchUserPosts (userIdArray) {
     const fetchPromises = userIdArray.map(userId => {
         return new Promise((resolve, reject) => {
             //Add data here
+            const posts = [
+                { userId: userId, postId: 1, content: `Post 1 by user ${userId}` },
+                { userId: userId, postId: 2, content: `Post 2 by user ${userId}` },
+            ];
+            resolve(posts);
         });
     });
     return Promise.all(fetchPromises);
